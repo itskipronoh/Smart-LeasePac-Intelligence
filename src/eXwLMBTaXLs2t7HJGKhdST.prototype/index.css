@@ -1,0 +1,44 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORT — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORT MUST NEVER BE DELETED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss';
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@theme {
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --color-navy: #0b2a4a;
+  --color-navy-2: #14406b;
+  --color-teal: #0b7f84;
+  --color-teal-soft: #e2f3f3;
+  --color-ink: #12233a;
+  --color-muted: #55657a;
+  --color-line: #d9e1ea;
+  --color-canvas: #f2f5f9;
+  --color-ok: #1b7f47;
+  --color-ok-soft: #e5f4ec;
+  --color-warn: #9a6200;
+  --color-warn-soft: #fbf0d9;
+  --color-bad: #b3261e;
+  --color-bad-soft: #fbe7e5;
+}
+
+html, body, #root { height: 100%; }
+body { font-family: var(--font-sans); color: var(--color-ink); background: var(--color-canvas); }
+:focus-visible { outline: 2px solid var(--color-teal); outline-offset: 2px; }
+
+@keyframes guide-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(11, 127, 132, 0.55); }
+  50% { box-shadow: 0 0 0 6px rgba(11, 127, 132, 0); }
+}
+body[data-guide-on='1'] [data-guide-active='1'] {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 2px;
+  animation: guide-pulse 1.6s ease-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-guide-on='1'] [data-guide-active='1'] { animation: none; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 180ms cubic-bezier(0.23, 1, 0.32, 1); }
