@@ -33,7 +33,7 @@
 | **Existing product** | LeasePac |
 | **Innovation** | AI-assisted onboarding, explainable credit assessment, approval workflow, agreement generation, and lease activation |
 | **Category** | Existing-product enhancement; usability; process automation; decision support |
-| **Creator / Developer** | **Gideon Rono** |
+| **Creator / Developer** | **Gideon Kiprono** |
 | **Event** | Fintech Group Innovation Hackathon 2026 |
 | **Target users** | Leasing officers, credit analysts, approving managers, operations officers, supervisors, and customers |
 | **Live prototype** | **https://smart-leasepac-503-site.magicpatterns.app/** |
