@@ -45,7 +45,7 @@
 
 ## 🏆 The Hackathon Challenge
 
-The Fintech Group Innovation Hackathon 2026 challenges participants to improve the **functionality and usability of existing Fintech products** through practical new features, user-experience improvements, and automation. A strong submission must identify a clear customer or operational problem, demonstrate a practical working solution, compare the original and improved experience, and communicate realistic business value.
+This is for Fintech Group Innovation Hackathon 2026 challenge
 
 Smart LeasePac focuses on **LeasePac**, connecting previously separate customer-directory functions with a guided, end-to-end origination workflow. The application concentrates on **making an existing product better**, instead of creating an unrelated standalone financial platform.
 
@@ -108,7 +108,7 @@ flowchart LR
 
 ### [Launch Smart LeasePac](https://smart-leasepac-503-site.magicpatterns.app/)
 
-**Magic Patterns source design:** [Open the project design](https://www.magicpatterns.com/os/7HeJzKHXns1K9EQX9gZwqx?file=eXwLMBTaXLs2t7HJGKhdST)
+
 
 The app has a top-bar **Demo role** selector, **Start Hackathon Demo**, and **Reset Demo** controls. It contains seeded, fictional records so reviewers can explore the experience without using real customer information.
 
@@ -274,7 +274,6 @@ flowchart LR
     A --> X[Approved OCR / KYC / Credit Services]
 ```
 
-For a production enhancement, keep credit policy, financial calculations, workflow authorization, and audit enforcement on trusted server-side services. Confirm actual LeasePac integration points with the product engineering team instead of assuming endpoint names or database schemas.
 
 ---
 
@@ -299,7 +298,6 @@ The following inventory comes from the exported project's `package.json` and sou
 | Document extraction | Simulated local adapter | Seeded example extraction, not OCR service |
 | Prototype generation | Magic Patterns | Initial UI and code-export workflow |
 
-**Do not include Node.js/Express, MongoDB, OpenAI, Gemini, or credit-bureau integrations as implemented technologies; they are not present in this export.** Node.js and npm are required to build/run the frontend locally.
 
 ## 🧠 AI Transparency, Safety & Human Oversight
 
@@ -371,7 +369,7 @@ smart-leasepac/
 ### Run from the exported source ZIP
 
 ```bash
-# 1. Extract the Magic Patterns ZIP into a directory.
+# 1.  directory.
 cd smart-leasepac
 
 # 2. Install dependencies listed in package.json.
@@ -427,7 +425,6 @@ If a demonstration step is blocked by an application rule, choose the appropriat
 
 ---
 
-## 🎬 Three-Minute Hackathon Demo
 
 **Video requirement:** maximum **3 minutes**; publish an accessible public or unlisted YouTube, Vimeo, or Loom link.
 
@@ -534,7 +531,7 @@ These disclosures reflect the **provided source export** and help distinguish pr
 
 ## 🤝 Contribution & Development Workflow
 
-The project is a hackathon prototype maintained by its creator. Contributions, reviews, and improvements can be organized through a public repository once published.
+The project is a hackathon prototype maintained by its creator. Contributions, reviews and improvements is welcome.
 
 ```bash
 # Example local development workflow
@@ -548,21 +545,45 @@ When opening a change request, include what was changed, the affected pages/acti
 
 ## 📄 License
 
-**No license file is included in the supplied Magic Patterns export.** All rights are reserved unless the creator explicitly publishes a license. If an open-source license is intended, add a reviewed `LICENSE` file and update this section; do not assume MIT licensing automatically.
+### Smart LeasePqac
 
-## 👨‍💻 Creator & Attribution
+**Copyright (c) 2026 Gideon Kiprono**
 
-**Created and developed by Gideon Rono**  
-**Project:** Smart LeasePac — Intelligent Leasing & Workflow Automation  
-**Event:** Fintech Group Innovation Hackathon 2026  
-**Prototype platform:** [Magic Patterns](https://www.magicpatterns.com/)  
-**Existing product enhanced:** LeasePac
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-No other individual developer or team-member attribution is included.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-**Repository:** `ADD_FINAL_PUBLIC_GITHUB_REPOSITORY_URL`  
-**Live application:** [smart-leasepac-503-site.magicpatterns.app](https://smart-leasepac-503-site.magicpatterns.app/)  
-**Demo video:** `ADD_FINAL_PUBLIC_OR_UNLISTED_VIDEO_URL`
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+### 🏆 **Project Attribution**
+
+**Project Title:** Smart LeasePac - Intelligent Leasing & Workflow Automation for LeasePac 
+**Lead Developer:** Gideon Kiprono  
+**Organization:** Fintech Group Innovation Hackathon 2026  
+**Purpose:** Improving the Functionality and Usability of Existing LeasePac Product
+
+### 📧 **Contact**
+
+For questions regarding licensing, commercial use or contributions:
+
+- **Lead Developer:** [kipronoyegon68@gmail.com](mailto:kipronoyegon68@gmail.com)
+- **Co-Developer:** [gkiprono@fintech-group.com](mailto:gkiprono@fintech-group.com)
+- **GitHub:** [@itskipronoh](https://github.com/itskipronoh) 
+- **Project Repository:** [](https://github.com/itskipronoh/Smart-LeasePac-Intelligence)
 
 ---
 
@@ -574,6 +595,10 @@ No other individual developer or team-member attribution is included.
 
 *Building better products, together — Fintech Group Innovation Hackathon 2026.*
 
-[Launch Prototype](https://smart-leasepac-503-site.magicpatterns.app/) · [View Magic Patterns Design](https://www.magicpatterns.com/os/7HeJzKHXns1K9EQX9gZwqx?file=eXwLMBTaXLs2t7HJGKhdST)
+*Made with 💚 for Fintech Group Innovation Hackathon.*
+
+[Launch Prototype](https://smart-leasepac-503-site.magicpatterns.app/) 
+
+[⭐ Star this project](https://github.com/itskipronoh/Smart-LeasePac-Intelligence) • [🐛 Report Issues](https://github.com/itskipronoh/Smart-LeasePac-Intelligence/issues) • [💡 Request Features](https://github.com/itskipronoh/Smart-LeasePac-Intelligence/issues/new)
 
 </div>
