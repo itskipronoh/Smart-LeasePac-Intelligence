@@ -38,7 +38,7 @@
 | **Target users** | Leasing officers, credit analysts, approving managers, operations officers, supervisors, and customers |
 | **Live prototype** | **https://smart-leasepac-503-site.magicpatterns.app/** |
 | **Source** | This exported Magic Patterns React/TypeScript application; add your final public GitHub repository URL when published |
-| **Demo video** | Add public or unlisted YouTube / Vimeo / Loom URL after recording (maximum 3 minutes) |
+| **Demo video** | Kindly wait for the link |
 | **Delivery stage** | Functional browser-based prototype, not an integrated production LeasePac deployment |
 
 > **Product positioning:** Smart LeasePac is an enhancement to **the existing LeasePac product**, not a replacement for its financial engine, customer master, accounting, or approval infrastructure. Production deployment would integrate with existing verified LeasePac data, configured lease products, institutional controls, and approved external services.
@@ -57,7 +57,7 @@ Smart LeasePac focuses on **LeasePac**, connecting previously separate customer-
 | Problem statement (2–3 sentences) | Problem Statement |
 | Before vs. after | Before & After; in-app comparison screen |
 | Working prototype | Live Prototype; Demo Journey |
-| Demo video ≤ 3 minutes | Three-Minute Hackathon Demo; link placeholder |
+| Demo video ≤ 3 minutes | link placeholder |
 | Public code or shared prototype | Live link and exported source; public repository placeholder |
 | README with run instructions | Quick Start; Project Structure |
 | Tools, languages, libraries, AI | Verified Technology Stack; AI Transparency |
@@ -235,7 +235,7 @@ The screenshot supplied with the project brief documents **existing LeasePac Dir
 
 ![Existing LeasePac Directory screenshot used by the prototype](https://cdn.magicpatterns.com/uploads/iKMtKZCBno39fN6ksquSx2/image.png)
 
-*The referenced image is the existing product screenshot embedded in the prototype's comparison screen. External image availability depends on the hosting provider.*
+*The referenced image is the existing product screenshot embedded in the prototype's comparison screen.*
 
 ---
 
@@ -438,7 +438,7 @@ If a demonstration step is blocked by an application rule, choose the appropriat
 | **2:30–2:48** | Activation and updated portfolio | Show continuity from approved application to active lease |
 | **2:48–3:00** | Impact and closing | Emphasize functionality, usability, and practical integration potential |
 
-**Demo video:** `ADD_PUBLIC_OR_UNLISTED_VIDEO_URL`
+**Demo video:** `Wait for the video to load`
 
 ### Suggested closing statement
 
