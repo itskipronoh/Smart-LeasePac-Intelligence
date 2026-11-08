@@ -69,7 +69,7 @@ Smart LeasePac focuses on **LeasePac**, connecting previously separate customer-
 
 The existing LeasePac interface separates customer capture, customer approval, image upload, and customer details into different menu functions, requiring users to move between distinct screens. This can make customer onboarding and subsequent lease-processing handoffs harder to follow, especially when documentation, credit review, approval decisions, and application progress must be coordinated. **Smart LeasePac proposes a unified, guided workflow with assisted document handling, explainable credit assessment, role-aware approvals, agreement preparation, and lease tracking to improve usability, visibility, and operational efficiency.**
 
-*The first observation is grounded in the supplied LeasePac screenshot. Additional operational pain points are improvement hypotheses, not independently verified production defects or measured customer complaints.*
+*The first observation is grounded in the supplied LeasePac screenshot. Additional operational pain points are improvement hypotheses and measured customer complaints not independently verified production defects*
 
 ## 💡 Solution Overview
 
@@ -426,19 +426,7 @@ If a demonstration step is blocked by an application rule, choose the appropriat
 ---
 
 
-**Video requirement:** maximum **3 minutes**; publish an accessible public or unlisted YouTube, Vimeo, or Loom link.
-
-| Timestamp | Scene | Voice-over focus |
-| --- | --- | --- |
-| **0:00–0:20** | Existing LeasePac screenshot and Before & After | Introduce the separated Directory functions and proposed guided workflow |
-| **0:20–0:50** | Onboarding and documents | Show customer reuse, validation, and simulated document assistance |
-| **0:50–1:25** | Quotation + credit assessment | Explain the affordability view, risk factors, and human-review recommendation |
-| **1:25–1:55** | Approval Workbench | Switch roles and show the authorized decision trail |
-| **1:55–2:30** | Agreement generation | Produce and preview the populated demonstration PDF |
-| **2:30–2:48** | Activation and updated portfolio | Show continuity from approved application to active lease |
-| **2:48–3:00** | Impact and closing | Emphasize functionality, usability, and practical integration potential |
-
-**Demo video:** `Wait for the video to load`
+**Demo video:** `loading.......`
 
 ### Suggested closing statement
 
